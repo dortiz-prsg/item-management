@@ -1,0 +1,27 @@
+{
+  "name": "item-management",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "pinia": "^2.1.3",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0",
+    "vuetify": "^3.2.5"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.2.96",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^22.0.0",
+    "vite": "^4.3.5",
+    "vitest": "^0.31.0",
+    "webfontloader": "^1.6.28"
+  }
+}
